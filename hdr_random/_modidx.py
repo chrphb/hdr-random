@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://chrphb.github.io',
                 'git_url': 'https://github.com/chrphb/hdr-random',
                 'lib_path': 'hdr_random'},
-  'syms': {'hdr_random.core': {'hdr_random.core.foo': ('core.html#foo', 'hdr_random/core.py')}}}
+  'syms': { 'hdr_random.core': { 'hdr_random.core.again': ('core.html#again', 'hdr_random/core.py'),
+                                 'hdr_random.core.foo': ('core.html#foo', 'hdr_random/core.py'),
+                                 'hdr_random.core.go': ('core.html#go', 'hdr_random/core.py'),
+                                 'hdr_random.core.say_hello': ('core.html#say_hello', 'hdr_random/core.py')}}}
