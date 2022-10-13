@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "hdr-random"
+  site-url: "https://chrphb.github.io/hdr-random"
+  description: "HDR Random Generator"
+  repo-branch: main
+  repo-url: "https://github.com/chrphb/hdr-random"
