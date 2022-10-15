@@ -59,5 +59,5 @@ class HDRandom:
     
     __repr__ = __str__
 
-# %% ../nbs/00_core.ipynb 16
+# %% ../nbs/00_core.ipynb 18
 def minetest(): pass
