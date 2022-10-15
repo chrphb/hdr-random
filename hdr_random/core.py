@@ -21,7 +21,7 @@ def again(): pass
 
 # %% ../nbs/00_core.ipynb 9
 def say_hello(to):
-    "Say hello to `to` - somebody"
+    "Say hello to `to` somebody"
     return f'Hello {to}!'
 
 # %% ../nbs/00_core.ipynb 12
