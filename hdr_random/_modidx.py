@@ -8,5 +8,4 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'hdr_random.core': { 'hdr_random.core.HDRandom': ('core.html#hdrandom', 'hdr_random/core.py'),
                                  'hdr_random.core.HDRandom.__init__': ('core.html#hdrandom.__init__', 'hdr_random/core.py'),
                                  'hdr_random.core.HDRandom.__str__': ('core.html#hdrandom.__str__', 'hdr_random/core.py'),
-                                 'hdr_random.core.HDRandom.generate': ('core.html#hdrandom.generate', 'hdr_random/core.py'),
-                                 'hdr_random.core.minetest': ('core.html#minetest', 'hdr_random/core.py')}}}
+                                 'hdr_random.core.HDRandom.generate': ('core.html#hdrandom.generate', 'hdr_random/core.py')}}}
