@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "hdr-random",
+    "section": "",
+    "text": "A library based on Probably Management.\nSee the initial work from Doug Hubbard: A MULTI-DIMENSIONAL, COUNTER-BASED PSEUDO RANDOM NUMBER GENERATOR AS A STANDARD FOR MONTE CARLO SIMULATIONS"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "hdr-random",
+    "section": "Install",
+    "text": "Install\npip install hdr_random"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "hdr-random",
+    "section": "How to use",
+    "text": "How to use\nHere is the way to generate a sequence of 10 random numbers: see the class HDRandom\n\nx = HDRandom(entity=10, varId=2, seed3=3, seed4=4)\nfor c in range(1,10):\n    print(x.generate(c))\n\n0.18532938009593636\n0.9937039703363553\n0.09836426738183945\n0.7941507144132629\n0.7279702170053497\n0.03101965703535825\n0.41562155552674085\n0.06352685287129134\n0.8691775795305148"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nHDRandom.generate\n\n HDRandom.generate (counter:int)\n\nGenerates a random number for this counter value\n\n\n\n\nType\nDetails\n\n\n\n\ncounter\nint\na counter value\n\n\nReturns\nfloat\n\n\n\n\nShowing here how to add a method outside of a Class as a temporary patch:\n\n@patch\ndef __eq__(self:HDRandom, a:HDRandom): return ((self.entity==a.entity) and (self.varId==a.varId) and (self.seed3==a.seed3) and (self.seed4==a.seed4))\n\n\nx = HDRandom(entity=10, varId=2, seed3=3, seed4=4)\ntest_eq(x.generate(counter=1),0.18532938009593636)\ntest_eq(x,x)\n\n\nsource\n\n\nHDRandom\n\n HDRandom (entity:int, varId:int, seed3:int, seed4:int)\n\nHDR Random Number Generator, based on https://www.probabilitymanagement.org/hdr\n\n\n\n\nType\nDetails\n\n\n\n\nentity\nint\nentity integer seed (assigned or should be 0)\n\n\nvarId\nint\nvarId integer seed\n\n\nseed3\nint\nseed3 integer seed\n\n\nseed4\nint\nseed4 integer seed"
+  }
+]
